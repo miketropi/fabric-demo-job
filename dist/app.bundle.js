@@ -17,7 +17,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _context_AppContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../context/AppContext */ "./src/context/AppContext.js");
 /* harmony import */ var fabric__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! fabric */ "./node_modules/fabric/dist/fabric.js");
 /* harmony import */ var fabric__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(fabric__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _lib_helpers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../lib/helpers */ "./src/lib/helpers.js");
+/* harmony import */ var _images_bento_lunch_box_1_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../images/bento-lunch-box-1.jpg */ "./images/bento-lunch-box-1.jpg");
+/* harmony import */ var _images_bento_lunch_box_2_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../images/bento-lunch-box-2.jpg */ "./images/bento-lunch-box-2.jpg");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
@@ -29,12 +32,20 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
-var TEMPLATE = ['{"version":"5.3.0","objects":[{"type":"rect","version":"5.3.0","originX":"left","originY":"top","left":95,"top":81,"width":200,"height":280,"fill":"yellow","stroke":null,"strokeWidth":1,"strokeDashArray":null,"strokeLineCap":"butt","strokeDashOffset":0,"strokeLineJoin":"miter","strokeUniform":false,"strokeMiterLimit":4,"scaleX":1,"scaleY":1,"angle":0,"flipX":false,"flipY":false,"opacity":1,"shadow":null,"visible":true,"backgroundColor":"","fillRule":"nonzero","paintFirst":"fill","globalCompositeOperation":"source-over","skewX":0,"skewY":0,"rx":0,"ry":0}],"background":"pink"}', '{"version":"5.3.0","objects":[{"type":"rect","version":"5.3.0","originX":"left","originY":"top","left":292.71,"top":226.04,"width":200,"height":280,"fill":"yellow","stroke":null,"strokeWidth":1,"strokeDashArray":null,"strokeLineCap":"butt","strokeDashOffset":0,"strokeLineJoin":"miter","strokeUniform":false,"strokeMiterLimit":4,"scaleX":1,"scaleY":1,"angle":48.36,"flipX":false,"flipY":false,"opacity":1,"shadow":null,"visible":true,"backgroundColor":"","fillRule":"nonzero","paintFirst":"fill","globalCompositeOperation":"source-over","skewX":0,"skewY":0,"rx":0,"ry":0}],"background":"pink"}'];
+
+
+
+var TEMPLATE = ['{"version":"5.3.0","objects":[{"type":"image","version":"5.3.0","originX":"left","originY":"top","left":0,"top":80,"width":546,"height":502,"fill":"rgb(0,0,0)","stroke":null,"strokeWidth":0,"strokeDashArray":null,"strokeLineCap":"butt","strokeDashOffset":0,"strokeLineJoin":"miter","strokeUniform":false,"strokeMiterLimit":4,"scaleX":0.83,"scaleY":0.83,"angle":0,"flipX":false,"flipY":false,"opacity":1,"shadow":null,"visible":true,"backgroundColor":"","fillRule":"nonzero","paintFirst":"fill","globalCompositeOperation":"source-over","skewX":0,"skewY":0,"cropX":0,"cropY":0,"src":"http://127.0.0.1:8080/images/bento-lunch-box-1.jpg?ae29f69632a2d6b928af26b3de93037b","crossOrigin":null,"filters":[]},{"type":"text","version":"5.3.0","originX":"left","originY":"top","left":163,"top":370,"width":188.07,"height":27.12,"fill":"rgb(0,0,0)","stroke":null,"strokeWidth":1,"strokeDashArray":null,"strokeLineCap":"butt","strokeDashOffset":0,"strokeLineJoin":"miter","strokeUniform":false,"strokeMiterLimit":4,"scaleX":0.69,"scaleY":0.69,"angle":0,"flipX":false,"flipY":false,"opacity":1,"shadow":null,"visible":true,"backgroundColor":"","fillRule":"nonzero","paintFirst":"fill","globalCompositeOperation":"source-over","skewX":0,"skewY":0,"fontFamily":"Arial","fontWeight":"normal","fontSize":24,"text":"Hello this is a text","underline":false,"overline":false,"linethrough":false,"textAlign":"center","fontStyle":"normal","lineHeight":1.16,"textBackgroundColor":"","charSpacing":0,"styles":[],"direction":"ltr","path":null,"pathStartOffset":0,"pathSide":"left","pathAlign":"baseline"}],"background":"pink"}', '{"version":"5.3.0","objects":[{"type":"image","version":"5.3.0","originX":"left","originY":"top","left":-0.73,"top":83,"width":544,"height":508,"fill":"rgb(0,0,0)","stroke":null,"strokeWidth":0,"strokeDashArray":null,"strokeLineCap":"butt","strokeDashOffset":0,"strokeLineJoin":"miter","strokeUniform":false,"strokeMiterLimit":4,"scaleX":0.83,"scaleY":0.83,"angle":0,"flipX":false,"flipY":false,"opacity":1,"shadow":null,"visible":true,"backgroundColor":"","fillRule":"nonzero","paintFirst":"fill","globalCompositeOperation":"source-over","skewX":0,"skewY":0,"cropX":0,"cropY":0,"src":"http://127.0.0.1:8080/images/bento-lunch-box-2.jpg?1071aad1698c19b2439589fa49e7a9d2","crossOrigin":null,"filters":[]},{"type":"text","version":"5.3.0","originX":"left","originY":"top","left":155,"top":368,"width":188.07,"height":27.12,"fill":"rgb(0,0,0)","stroke":null,"strokeWidth":1,"strokeDashArray":null,"strokeLineCap":"butt","strokeDashOffset":0,"strokeLineJoin":"miter","strokeUniform":false,"strokeMiterLimit":4,"scaleX":0.75,"scaleY":0.75,"angle":0,"flipX":false,"flipY":false,"opacity":1,"shadow":null,"visible":true,"backgroundColor":"","fillRule":"nonzero","paintFirst":"fill","globalCompositeOperation":"source-over","skewX":0,"skewY":0,"fontFamily":"Arial","fontWeight":"normal","fontSize":24,"text":"Hello this is a text","underline":false,"overline":false,"linethrough":false,"textAlign":"center","fontStyle":"normal","lineHeight":1.16,"textBackgroundColor":"","charSpacing":0,"styles":[],"direction":"ltr","path":null,"pathStartOffset":0,"pathSide":"left","pathAlign":"baseline"}],"background":"pink"}'];
+var BACKGROUND = [_images_bento_lunch_box_1_jpg__WEBPACK_IMPORTED_MODULE_4__["default"], _images_bento_lunch_box_2_jpg__WEBPACK_IMPORTED_MODULE_5__["default"]];
 /* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__() {
   var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0),
     _useState2 = _slicedToArray(_useState, 2),
     template = _useState2[0],
     setTemplate = _useState2[1];
+  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0),
+    _useState4 = _slicedToArray(_useState3, 2),
+    background = _useState4[0],
+    setBackground = _useState4[1];
   var fabricRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
   var canvasRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
@@ -62,8 +73,25 @@ var TEMPLATE = ['{"version":"5.3.0","objects":[{"type":"rect","version":"5.3.0",
     fabricRef.current.add(rect);
     fabricRef.current.renderAll();
   };
+  var onAddImage = function onAddImage() {
+    var _image = BACKGROUND[background];
+    fabric__WEBPACK_IMPORTED_MODULE_2__.fabric.Image.fromURL(_image, function (img) {
+      fabricRef.current.add(img);
+    });
+  };
+  var onAddText = function onAddText() {
+    fabricRef.current.add(new fabric__WEBPACK_IMPORTED_MODULE_2__.fabric.Text('Hello this is a text', {
+      fontFamily: 'Arial',
+      left: 100,
+      top: 100,
+      textAlign: 'center',
+      fontSize: 24
+    }));
+  };
   var onExportJson = function onExportJson() {
-    console.log(JSON.stringify(fabricRef.current));
+    var jsonString = JSON.stringify(fabricRef.current);
+    (0,_lib_helpers__WEBPACK_IMPORTED_MODULE_3__.copyToClipboard)(jsonString);
+    console.log(jsonString);
   };
   var onImport = function onImport() {
     var __json = JSON.parse(TEMPLATE[template]);
@@ -71,44 +99,60 @@ var TEMPLATE = ['{"version":"5.3.0","objects":[{"type":"rect","version":"5.3.0",
       fabricRef.current.renderAll();
     });
   };
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
     className: "design-app",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
       className: "design-app__content",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
         className: "design-app__preview",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("canvas", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("canvas", {
           id: "MY_FABRIC_CANVAS",
           ref: canvasRef
         })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
         className: "design-app__options",
-        children: ["Options", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
-          onClick: function onClick(e) {
-            return addRect();
+        children: ["Build Template Demo", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("select", {
+          value: background,
+          onChange: function onChange(e) {
+            return setBackground(e.target.value);
           },
-          children: "Add Rect"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
+          children: BACKGROUND.map(function (o, _o_index) {
+            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("option", {
+              value: _o_index,
+              children: ["BG_", _o_index]
+            }, _o_index);
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("button", {
+          onClick: function onClick(e) {
+            return onAddImage();
+          },
+          children: "Add Background"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("button", {
+          onClick: function onClick(e) {
+            return onAddText();
+          },
+          children: "Add Text"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("button", {
           onClick: function onClick(e) {
             return onExportJson();
           },
-          children: "Export"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("select", {
+          children: "Copy To Clipboard"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("select", {
           value: template,
           onChange: function onChange(e) {
             return setTemplate(e.target.value);
           },
           children: TEMPLATE.map(function (o, _o_index) {
-            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("option", {
+            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("option", {
               value: _o_index,
               children: _o_index
             }, _o_index);
           })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("button", {
           onClick: function onClick(e) {
             return onImport();
           },
-          children: "Import"
+          children: "Load Template"
         })]
       })]
     })
@@ -147,6 +191,29 @@ var AppContext_Provider = function AppContext_Provider(_ref) {
 };
 var useAppContext = function useAppContext() {
   return (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(AppContext);
+};
+
+
+/***/ }),
+
+/***/ "./src/lib/helpers.js":
+/*!****************************!*\
+  !*** ./src/lib/helpers.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   copyToClipboard: () => (/* binding */ copyToClipboard)
+/* harmony export */ });
+var copyToClipboard = function copyToClipboard(text) {
+  var textField = document.createElement('textarea');
+  textField.innerText = text;
+  document.body.appendChild(textField);
+  textField.select();
+  document.execCommand('copy');
+  textField.remove();
 };
 
 
@@ -33337,6 +33404,36 @@ fabric.util.object.extend(fabric.IText.prototype, /** @lends fabric.IText.protot
 })();
 
 
+
+/***/ }),
+
+/***/ "./images/bento-lunch-box-1.jpg":
+/*!**************************************!*\
+  !*** ./images/bento-lunch-box-1.jpg ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/bento-lunch-box-1.jpg?ae29f69632a2d6b928af26b3de93037b");
+
+/***/ }),
+
+/***/ "./images/bento-lunch-box-2.jpg":
+/*!**************************************!*\
+  !*** ./images/bento-lunch-box-2.jpg ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/bento-lunch-box-2.jpg?1071aad1698c19b2439589fa49e7a9d2");
 
 /***/ }),
 
