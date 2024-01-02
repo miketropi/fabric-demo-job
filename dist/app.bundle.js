@@ -20,7 +20,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lib_helpers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../lib/helpers */ "./src/lib/helpers.js");
 /* harmony import */ var _images_bento_lunch_box_1_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../images/bento-lunch-box-1.jpg */ "./images/bento-lunch-box-1.jpg");
 /* harmony import */ var _images_bento_lunch_box_2_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../images/bento-lunch-box-2.jpg */ "./images/bento-lunch-box-2.jpg");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _images_Unicorn_Product_Icon_School_Supplies_3_webp__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../images/Unicorn-Product-Icon-School-Supplies_3.webp */ "./images/Unicorn-Product-Icon-School-Supplies_3.webp");
+/* harmony import */ var _images_Jungle_Category_Icon_Designer_Label_v2_2_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../images/Jungle-Category-Icon-Designer-Label-v2_2.png */ "./images/Jungle-Category-Icon-Designer-Label-v2_2.png");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
@@ -35,7 +37,18 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
-var TEMPLATE = ['{"version":"5.3.0","objects":[{"type":"image","version":"5.3.0","originX":"left","originY":"top","left":0,"top":80,"width":546,"height":502,"fill":"rgb(0,0,0)","stroke":null,"strokeWidth":0,"strokeDashArray":null,"strokeLineCap":"butt","strokeDashOffset":0,"strokeLineJoin":"miter","strokeUniform":false,"strokeMiterLimit":4,"scaleX":0.83,"scaleY":0.83,"angle":0,"flipX":false,"flipY":false,"opacity":1,"shadow":null,"visible":true,"backgroundColor":"","fillRule":"nonzero","paintFirst":"fill","globalCompositeOperation":"source-over","skewX":0,"skewY":0,"cropX":0,"cropY":0,"src":"http://127.0.0.1:8080/images/bento-lunch-box-1.jpg?ae29f69632a2d6b928af26b3de93037b","crossOrigin":null,"filters":[]},{"type":"text","version":"5.3.0","originX":"left","originY":"top","left":163,"top":370,"width":188.07,"height":27.12,"fill":"rgb(0,0,0)","stroke":null,"strokeWidth":1,"strokeDashArray":null,"strokeLineCap":"butt","strokeDashOffset":0,"strokeLineJoin":"miter","strokeUniform":false,"strokeMiterLimit":4,"scaleX":0.69,"scaleY":0.69,"angle":0,"flipX":false,"flipY":false,"opacity":1,"shadow":null,"visible":true,"backgroundColor":"","fillRule":"nonzero","paintFirst":"fill","globalCompositeOperation":"source-over","skewX":0,"skewY":0,"fontFamily":"Arial","fontWeight":"normal","fontSize":24,"text":"Hello this is a text","underline":false,"overline":false,"linethrough":false,"textAlign":"center","fontStyle":"normal","lineHeight":1.16,"textBackgroundColor":"","charSpacing":0,"styles":[],"direction":"ltr","path":null,"pathStartOffset":0,"pathSide":"left","pathAlign":"baseline"}],"background":"pink"}', '{"version":"5.3.0","objects":[{"type":"image","version":"5.3.0","originX":"left","originY":"top","left":-0.73,"top":83,"width":544,"height":508,"fill":"rgb(0,0,0)","stroke":null,"strokeWidth":0,"strokeDashArray":null,"strokeLineCap":"butt","strokeDashOffset":0,"strokeLineJoin":"miter","strokeUniform":false,"strokeMiterLimit":4,"scaleX":0.83,"scaleY":0.83,"angle":0,"flipX":false,"flipY":false,"opacity":1,"shadow":null,"visible":true,"backgroundColor":"","fillRule":"nonzero","paintFirst":"fill","globalCompositeOperation":"source-over","skewX":0,"skewY":0,"cropX":0,"cropY":0,"src":"http://127.0.0.1:8080/images/bento-lunch-box-2.jpg?1071aad1698c19b2439589fa49e7a9d2","crossOrigin":null,"filters":[]},{"type":"text","version":"5.3.0","originX":"left","originY":"top","left":155,"top":368,"width":188.07,"height":27.12,"fill":"rgb(0,0,0)","stroke":null,"strokeWidth":1,"strokeDashArray":null,"strokeLineCap":"butt","strokeDashOffset":0,"strokeLineJoin":"miter","strokeUniform":false,"strokeMiterLimit":4,"scaleX":0.75,"scaleY":0.75,"angle":0,"flipX":false,"flipY":false,"opacity":1,"shadow":null,"visible":true,"backgroundColor":"","fillRule":"nonzero","paintFirst":"fill","globalCompositeOperation":"source-over","skewX":0,"skewY":0,"fontFamily":"Arial","fontWeight":"normal","fontSize":24,"text":"Hello this is a text","underline":false,"overline":false,"linethrough":false,"textAlign":"center","fontStyle":"normal","lineHeight":1.16,"textBackgroundColor":"","charSpacing":0,"styles":[],"direction":"ltr","path":null,"pathStartOffset":0,"pathSide":"left","pathAlign":"baseline"}],"background":"pink"}'];
+
+
+
+var TEMPLATE = [{
+  name: 'Pony',
+  template: '{"version":"5.3.0","objects":[{"type":"image","version":"5.3.0","originX":"left","originY":"top","left":0,"top":80,"width":546,"height":502,"fill":"rgb(0,0,0)","stroke":null,"strokeWidth":0,"strokeDashArray":null,"strokeLineCap":"butt","strokeDashOffset":0,"strokeLineJoin":"miter","strokeUniform":false,"strokeMiterLimit":4,"scaleX":0.83,"scaleY":0.83,"angle":0,"flipX":false,"flipY":false,"opacity":1,"shadow":null,"visible":true,"backgroundColor":"","fillRule":"nonzero","paintFirst":"fill","globalCompositeOperation":"source-over","skewX":0,"skewY":0,"cropX":0,"cropY":0,"src":"http://127.0.0.1:8080/images/bento-lunch-box-1.jpg?ae29f69632a2d6b928af26b3de93037b","crossOrigin":null,"filters":[]},{"type":"text","version":"5.3.0","originX":"left","originY":"top","left":163,"top":370,"width":188.07,"height":27.12,"fill":"rgb(0,0,0)","stroke":null,"strokeWidth":1,"strokeDashArray":null,"strokeLineCap":"butt","strokeDashOffset":0,"strokeLineJoin":"miter","strokeUniform":false,"strokeMiterLimit":4,"scaleX":0.69,"scaleY":0.69,"angle":0,"flipX":false,"flipY":false,"opacity":1,"shadow":null,"visible":true,"backgroundColor":"","fillRule":"nonzero","paintFirst":"fill","globalCompositeOperation":"source-over","skewX":0,"skewY":0,"fontFamily":"Arial","fontWeight":"normal","fontSize":24,"text":"Hello this is a text","underline":false,"overline":false,"linethrough":false,"textAlign":"center","fontStyle":"normal","lineHeight":1.16,"textBackgroundColor":"","charSpacing":0,"styles":[],"direction":"ltr","path":null,"pathStartOffset":0,"pathSide":"left","pathAlign":"baseline"}],"background":"pink"}',
+  'thumb': _images_Unicorn_Product_Icon_School_Supplies_3_webp__WEBPACK_IMPORTED_MODULE_6__["default"]
+}, {
+  name: 'Animal',
+  template: '{"version":"5.3.0","objects":[{"type":"image","version":"5.3.0","originX":"left","originY":"top","left":-0.73,"top":83,"width":544,"height":508,"fill":"rgb(0,0,0)","stroke":null,"strokeWidth":0,"strokeDashArray":null,"strokeLineCap":"butt","strokeDashOffset":0,"strokeLineJoin":"miter","strokeUniform":false,"strokeMiterLimit":4,"scaleX":0.83,"scaleY":0.83,"angle":0,"flipX":false,"flipY":false,"opacity":1,"shadow":null,"visible":true,"backgroundColor":"","fillRule":"nonzero","paintFirst":"fill","globalCompositeOperation":"source-over","skewX":0,"skewY":0,"cropX":0,"cropY":0,"src":"http://127.0.0.1:8080/images/bento-lunch-box-2.jpg?1071aad1698c19b2439589fa49e7a9d2","crossOrigin":null,"filters":[]},{"type":"text","version":"5.3.0","originX":"left","originY":"top","left":155,"top":368,"width":188.07,"height":27.12,"fill":"rgb(0,0,0)","stroke":null,"strokeWidth":1,"strokeDashArray":null,"strokeLineCap":"butt","strokeDashOffset":0,"strokeLineJoin":"miter","strokeUniform":false,"strokeMiterLimit":4,"scaleX":0.75,"scaleY":0.75,"angle":0,"flipX":false,"flipY":false,"opacity":1,"shadow":null,"visible":true,"backgroundColor":"","fillRule":"nonzero","paintFirst":"fill","globalCompositeOperation":"source-over","skewX":0,"skewY":0,"fontFamily":"Arial","fontWeight":"normal","fontSize":24,"text":"Hello this is a text","underline":false,"overline":false,"linethrough":false,"textAlign":"center","fontStyle":"normal","lineHeight":1.16,"textBackgroundColor":"","charSpacing":0,"styles":[],"direction":"ltr","path":null,"pathStartOffset":0,"pathSide":"left","pathAlign":"baseline"}],"background":"pink"}',
+  thumb: _images_Jungle_Category_Icon_Designer_Label_v2_2_png__WEBPACK_IMPORTED_MODULE_7__["default"]
+}];
 var BACKGROUND = [_images_bento_lunch_box_1_jpg__WEBPACK_IMPORTED_MODULE_4__["default"], _images_bento_lunch_box_2_jpg__WEBPACK_IMPORTED_MODULE_5__["default"]];
 /* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__() {
   var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0),
@@ -46,6 +59,10 @@ var BACKGROUND = [_images_bento_lunch_box_1_jpg__WEBPACK_IMPORTED_MODULE_4__["de
     _useState4 = _slicedToArray(_useState3, 2),
     background = _useState4[0],
     setBackground = _useState4[1];
+  var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('Hello Sunny!'),
+    _useState6 = _slicedToArray(_useState5, 2),
+    name = _useState6[0],
+    setName = _useState6[1];
   var fabricRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
   var canvasRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
@@ -55,6 +72,17 @@ var BACKGROUND = [_images_bento_lunch_box_1_jpg__WEBPACK_IMPORTED_MODULE_4__["de
       fabricRef.current = null;
     };
   }, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
+    // console.log(fabricRef.current)
+    var objArr = fabricRef.current.getObjects();
+    // console.log(objs);
+    objArr.forEach(function (_o) {
+      if (_o.type == 'text') {
+        _o.set('text', name);
+        fabricRef.current.renderAll();
+      }
+    });
+  }, [name]);
   var initCanvas = function initCanvas() {
     return new fabric__WEBPACK_IMPORTED_MODULE_2__.fabric.Canvas(canvasRef.current, {
       height: 600,
@@ -93,67 +121,101 @@ var BACKGROUND = [_images_bento_lunch_box_1_jpg__WEBPACK_IMPORTED_MODULE_4__["de
     (0,_lib_helpers__WEBPACK_IMPORTED_MODULE_3__.copyToClipboard)(jsonString);
     console.log(jsonString);
   };
-  var onImport = function onImport() {
-    var __json = JSON.parse(TEMPLATE[template]);
+  var onImport = function onImport(_index) {
+    var __json = JSON.parse(TEMPLATE[_index].template);
     fabricRef.current.loadFromJSON(__json, function () {
       fabricRef.current.renderAll();
+    }, function (o, object) {
+      if (object.type == 'text') {
+        object.set('text', name);
+        fabricRef.current.renderAll();
+      }
+      // canvas.sendToBack(o[0]);
     });
   };
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
+  var __c = function __c() {
+    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.Fragment, {
+      children: ["Build Template Demo", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("select", {
+        value: background,
+        onChange: function onChange(e) {
+          return setBackground(e.target.value);
+        },
+        children: BACKGROUND.map(function (o, _o_index) {
+          return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("option", {
+            value: _o_index,
+            children: ["BG_", _o_index]
+          }, _o_index);
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("button", {
+        onClick: function onClick(e) {
+          return onAddImage();
+        },
+        children: "Add Background"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("button", {
+        onClick: function onClick(e) {
+          return onAddText();
+        },
+        children: "Add Text"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("button", {
+        onClick: function onClick(e) {
+          return onExportJson();
+        },
+        children: "Copy To Clipboard"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("select", {
+        value: template,
+        onChange: function onChange(e) {
+          return setTemplate(e.target.value);
+        },
+        children: TEMPLATE.map(function (o, _o_index) {
+          return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("option", {
+            value: _o_index,
+            children: _o_index
+          }, _o_index);
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("button", {
+        onClick: function onClick(e) {
+          return onImport();
+        },
+        children: "Load Template"
+      })]
+    });
+  };
+  var __user = function __user() {
+    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.Fragment, {
+      children: ["Select design", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("ul", {
+        className: "__opts",
+        children: TEMPLATE.map(function (t, t_index) {
+          return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("li", {
+            onClick: function onClick(e) {
+              return onImport(t_index);
+            },
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("img", {
+              src: t.thumb
+            })
+          }, t_index);
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("hr", {}), "Your Name ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("input", {
+        type: "text",
+        value: name,
+        onInput: function onInput(e) {
+          return setName(e.target.value);
+        }
+      })]
+    });
+  };
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
     className: "design-app",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
       className: "design-app__content",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
         className: "design-app__preview",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("canvas", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("canvas", {
           id: "MY_FABRIC_CANVAS",
           ref: canvasRef
         })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
         className: "design-app__options",
-        children: ["Build Template Demo", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("select", {
-          value: background,
-          onChange: function onChange(e) {
-            return setBackground(e.target.value);
-          },
-          children: BACKGROUND.map(function (o, _o_index) {
-            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("option", {
-              value: _o_index,
-              children: ["BG_", _o_index]
-            }, _o_index);
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("button", {
-          onClick: function onClick(e) {
-            return onAddImage();
-          },
-          children: "Add Background"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("button", {
-          onClick: function onClick(e) {
-            return onAddText();
-          },
-          children: "Add Text"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("button", {
-          onClick: function onClick(e) {
-            return onExportJson();
-          },
-          children: "Copy To Clipboard"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("select", {
-          value: template,
-          onChange: function onChange(e) {
-            return setTemplate(e.target.value);
-          },
-          children: TEMPLATE.map(function (o, _o_index) {
-            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("option", {
-              value: _o_index,
-              children: _o_index
-            }, _o_index);
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("button", {
-          onClick: function onClick(e) {
-            return onImport();
-          },
-          children: "Load Template"
-        })]
+        children: __user()
       })]
     })
   });
@@ -33404,6 +33466,36 @@ fabric.util.object.extend(fabric.IText.prototype, /** @lends fabric.IText.protot
 })();
 
 
+
+/***/ }),
+
+/***/ "./images/Jungle-Category-Icon-Designer-Label-v2_2.png":
+/*!*************************************************************!*\
+  !*** ./images/Jungle-Category-Icon-Designer-Label-v2_2.png ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/Jungle-Category-Icon-Designer-Label-v2_2.png?cf17e5d26059899199178fec3fae753b");
+
+/***/ }),
+
+/***/ "./images/Unicorn-Product-Icon-School-Supplies_3.webp":
+/*!************************************************************!*\
+  !*** ./images/Unicorn-Product-Icon-School-Supplies_3.webp ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/Unicorn-Product-Icon-School-Supplies_3.webp?168f53b94b310da90a7ca992569e3529");
 
 /***/ }),
 
